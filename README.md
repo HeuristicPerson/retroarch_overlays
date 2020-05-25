@@ -14,9 +14,10 @@ include their configuration in this repository.
 Aspect ratios
 =============
 
-Retroarch provides some automatic aspect ratio presets `aspect_ratio_index` that
-set the size and position of the emulated screen. Apart from the 4:3 overlay,
-you'll see the other ones use a custom configuration:
+Retroarch provides some automatic aspect ratio presets, through option
+`aspect_ratio_index` in retroarch.cfg that set the size and position of the
+emulated screen. Apart from the 4:3 overlay, you'll see the other ones use a
+custom configuration:
 
     0 => 4:3
     ...
@@ -24,9 +25,9 @@ you'll see the other ones use a custom configuration:
     23 => custom
 
 This index have changed during time (e.g. custom used to be 22 and now --2020--
-it's 23). So, if you see the emulated screen is not positioned correctly, I
-recommend you to go to official retroarch documentation and check the full list
-of values.
+it's 23). So, if you see the emulated screen is not positioned/sized correctly,
+I recommend you to go to official retroarch documentation and check the updated
+list of values and their meanings.
 
 
 LED colors
@@ -42,7 +43,6 @@ Video configuration
 4:3
 ---
 
-    # 0 => 4:3, 21 => core provided
     aspect_ratio_index = "0"
     input_overlay_enable = "true"
     input_overlay_opacity = "1.000000"
@@ -52,7 +52,8 @@ Video configuration
 Game Boy
 --------
 
-    # Zoom x?
+    # Zoom x5
+    #--------
     aspect_ratio_index = "23"
     # video_scale_integer = "false"  <- Not sure why I commented it.
     custom_viewport_height = "720"
@@ -64,6 +65,7 @@ Game Boy Advance
 ----------------
 
     # Zoom x5
+    #--------
     aspect_ratio_index = "23"
     custom_viewport_height = "800"
     custom_viewport_width = "1200"
@@ -74,7 +76,8 @@ Game Boy Advance
 Game Boy Color
 --------------
 
-    # Zoom x?
+    # Zoom x5
+    #--------
     aspect_ratio_index = "23"
     # video_scale_integer = "false"  <- Not sure why I commented it.
     custom_viewport_height = "720"
@@ -86,6 +89,7 @@ Lynx
 ----
 
     # Zoom x5
+    #--------
     aspect_ratio_index = "23"
     # video_scale_integer = "false"  <- Not sure why I commented it.
     custom_viewport_height = "510"
