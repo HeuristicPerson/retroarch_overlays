@@ -48,6 +48,19 @@ Video configuration
     input_overlay_opacity = "1.000000"
     input_overlay = "YOUR_PATH/4_3/4_3_red.cfg"
 
+**IMPORTANT NOTE:** In my computer I use a launching script for retroarch that
+overlays (sorry, pun not intended) different configurations:
+
+    master_cfg
+      platform_cfg
+        core_cfg
+          user_cfg
+
+That's the reason you see some extra options in 4:3 overlay that are not present
+in the others below: I include 4:3 overlay in master_cfg so I don't have to
+specify them when setting the platform_cfg (e.g. `input_overlay_opacity`
+option).
+
 
 Game Boy
 --------
@@ -113,5 +126,5 @@ You can find the images at full resolution in `screenshots` dir.
 Credits
 -------
 
-Console pictures: [Evan Amos](https://www.wikiwand.com/en/Evan_Amos)
+Console pictures: [Evan Amos](hhttps://commons.wikimedia.org/wiki/User:Evan-Amos)
 
