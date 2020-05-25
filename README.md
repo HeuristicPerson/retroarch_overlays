@@ -106,3 +106,8 @@ You can find the images at full resolution in `screenshots` dir.
 ![Lynx overlay](screenshots/overlay_lnx_small.png "Lynx overlay")
 
 
+Credits
+-------
+
+Console pictures: [Evan Amos](https://www.wikiwand.com/en/Evan_Amos)
+
